@@ -1,0 +1,46 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    background-color: #1c2331;
+    color: white;
+
+    text-align: bottom;
+    margin-top: auto;
+
+}
+
+.fotoGrande {
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    font-size: 1.5em;
+}
+
+
+.primaZona {
+    display: flex;
+    padding-bottom: 12em;
+
+
+}
+
+.primoTesto {
+    padding-left: 10rem;
+    padding-top: 7rem;
+    padding-right: 10rem;
+}
